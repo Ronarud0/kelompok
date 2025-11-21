@@ -1,0 +1,118 @@
+/* CSS untuk Implaand Basketball Club - Tema Biru & Hijau Elegan */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #e8faff;
+    color: #033649;
+}
+
+header {
+    background: linear-gradient(90deg, #018ABE, #0CC28A);
+    padding: 40px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    background: #016E96;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #A8FFDD;
+}
+
+.hero {
+    padding: 70px 20px;
+    text-align: center;
+    background: #d9fff2;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.hero button {
+    padding: 12px 22px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #018ABE;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #0CC28A;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+form {
+    max-width: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #018ABE;
+}
+
+button {
+    background: #018ABE;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0CC28A;
+}
+
+footer {
+    background: #016E96;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
